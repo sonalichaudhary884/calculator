@@ -9,11 +9,11 @@ export default function UserInput({ onChange, userInput }) {
             required
             value={userInput.initialInvestment}
             onChange={(event) =>
-              onChange(" initialInvestment", event.target.value)
+              onChange("initialInvestment", event.target.value)
             }
           />
         </p>
-        s
+
         <p>
           <label>Annual Investment</label>
           <input
@@ -21,7 +21,7 @@ export default function UserInput({ onChange, userInput }) {
             required
             value={userInput.annualInvestment}
             onChange={(event) =>
-              onChange(" annualInvestment", event.target.value)
+              onChange("annualInvestment", event.target.value)
             }
           />
         </p>
@@ -42,7 +42,7 @@ export default function UserInput({ onChange, userInput }) {
             type="number"
             required
             value={userInput.duration}
-            onChange={(event) => onChange(" duration", event.target.value)}
+            onChange={(event) => onChange("duration", event.target.value)}
           />
         </p>
       </div>
