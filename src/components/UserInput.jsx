@@ -13,6 +13,7 @@ export default function UserInput({ onChange, userInput }) {
             }
           />
         </p>
+        s
         <p>
           <label>Annual Investment</label>
           <input
